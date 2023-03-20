@@ -1,0 +1,6 @@
+[submodule "PEEL_Externals/5_1_0"]
+	path = PEEL_Externals/5_1_0
+	url = https://github.com/erwincoumans/PhysX5.git
+[submodule "PEEL_Externals/Jolt"]
+	path = PEEL_Externals/Jolt
+	url = https://github.com/erwincoumans/JoltPhysics.git
