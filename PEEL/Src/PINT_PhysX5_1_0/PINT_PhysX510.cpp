@@ -104,43 +104,43 @@ static SpyProfilerCallback gSpyProfiler;
 	#if _MSC_VER >= 1910
 		#ifdef PINT_SUPPORT_PVD
 			#ifndef USE_LOAD_LIBRARY
-				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysX_64.lib")
-				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysXCommon_64.lib")
-				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysXCooking_64.lib")
-				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysXVehicle_static_64.lib")
-				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysXFoundation_64.lib")
-				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysXExtensions_static_64.lib")
-				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysXCharacterKinematic_static_64.lib")
+				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysX_64.lib")
+				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysXCommon_64.lib")
+				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysXCooking_64.lib")
+				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysXVehicle_static_64.lib")
+				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysXFoundation_64.lib")
+				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysXExtensions_static_64.lib")
+				#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysXCharacterKinematic_static_64.lib")
 				//#ifdef USE_NEW_PVD
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/profile/PhysXPvdSDK_static_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/profile/PhysXPvdSDK_static_64.lib")
 				//#endif
 			#endif
 		#else
 			#ifdef _DEBUG
 				#ifndef USE_LOAD_LIBRARY
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysX_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXCommon_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXCooking_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXVehicle_static_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXCharacterKinematic_static_64.lib")
-					//#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXGpu_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXFoundation_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXExtensions_static_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysX_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXCommon_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXCooking_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXVehicle_static_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXCharacterKinematic_static_64.lib")
+					//#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXGpu_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXFoundation_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXExtensions_static_64.lib")
 					//#ifdef USE_NEW_PVD
-						#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/debug/PhysXPvdSDK_static_64.lib")
+						#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/debug/PhysXPvdSDK_static_64.lib")
 					//#endif
 				#endif
 			#else
 				#ifndef USE_LOAD_LIBRARY
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysX_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysXCommon_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysXCooking_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysXVehicle_static_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysXFoundation_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysXExtensions_static_64.lib")
-					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysXCharacterKinematic_static_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysX_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysXCommon_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysXCooking_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysXVehicle_static_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysXFoundation_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysXExtensions_static_64.lib")
+					#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysXCharacterKinematic_static_64.lib")
 					#ifdef USE_NEW_PVD
-						#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc141.mt/release/PhysXPvdSDK_static_64.lib")
+						#pragma comment(lib, "../../../../PEEL_Externals/5_1_0/bin/win.x86_64.vc142.mt/release/PhysXPvdSDK_static_64.lib")
 					#endif
 				#endif
 			#endif

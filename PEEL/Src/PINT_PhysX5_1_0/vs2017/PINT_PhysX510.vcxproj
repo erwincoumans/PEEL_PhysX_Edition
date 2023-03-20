@@ -30,42 +30,42 @@
     <ProjectGuid>{69BC5020-B5F4-4640-AAB7-3FD949479E3D}</ProjectGuid>
     <RootNamespace>PINT_PhysX510</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>PINT_PhysX510</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -181,7 +181,7 @@ copy ..\..\..\..\PEEL_Externals\5_1_0\vc12win32\debug\PhysXFoundation_32.dll ..\
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>.\Debug\PINT_PhysX510_VS2017_64_D.dll</OutputFile>
+      <OutputFile>.\Debug\PINT_PhysX510_VS2019_64_D.dll</OutputFile>
       <DelayLoadDLLs>PhysX_64.dll;PhysXCommon_64.dll;PhysXCooking_64.dll;PhysXFoundation_64.dll;PhysXGpu_64.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -189,13 +189,13 @@ copy ..\..\..\..\PEEL_Externals\5_1_0\vc12win32\debug\PhysXFoundation_32.dll ..\
     </Link>
     <PostBuildEvent>
       <Message>Copying DLL to Build folder...</Message>
-      <Command>copy .\Debug\PINT_PhysX510_VS2017_64_D.dll ..\..\..\Build64
+      <Command>copy .\Debug\PINT_PhysX510_VS2019_64_D.dll ..\..\..\Build64
 
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\debug\PhysX_64.dll ..\..\..\Build64\PhysXDEBUG_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\debug\PhysXCommon_64.dll ..\..\..\Build64\PhysXCommonDEBUG_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\debug\PhysXCooking_64.dll ..\..\..\Build64\PhysXCookingDEBUG_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\debug\PhysXGpu_64.dll ..\..\..\Build64\PhysXGpuDEBUG_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\debug\PhysXFoundation_64.dll ..\..\..\Build64\PhysXFoundationDEBUG_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\debug\PhysX_64.dll ..\..\..\Build64\PhysXDEBUG_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\debug\PhysXCommon_64.dll ..\..\..\Build64\PhysXCommonDEBUG_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\debug\PhysXCooking_64.dll ..\..\..\Build64\PhysXCookingDEBUG_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\debug\PhysXGpu_64.dll ..\..\..\Build64\PhysXGpuDEBUG_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\debug\PhysXFoundation_64.dll ..\..\..\Build64\PhysXFoundationDEBUG_64_5_1_0.dll
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -269,7 +269,7 @@ copy ..\..\..\..\PEEL_Externals\5_1_0\vc12win32\release\PhysXFoundation_32.dll .
       <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
-      <OutputFile>.\Release\PINT_PhysX510_VS2017_64.dll</OutputFile>
+      <OutputFile>.\Release\PINT_PhysX510_VS2019_64.dll</OutputFile>
       <DelayLoadDLLs>PhysX_64.dll;PhysXCommon_64.dll;PhysXCooking_64.dll;PhysXFoundation_64.dll;PhysXGpu_64.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -281,13 +281,13 @@ copy ..\..\..\..\PEEL_Externals\5_1_0\vc12win32\release\PhysXFoundation_32.dll .
     </Link>
     <PostBuildEvent>
       <Message>Copying DLL to Build folder...</Message>
-      <Command>copy .\Release\PINT_PhysX510_VS2017_64.dll ..\..\..\Build64
+      <Command>copy .\Release\PINT_PhysX510_VS2019_64.dll ..\..\..\Build64
 
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\release\PhysX_64.dll ..\..\..\Build64\PhysX_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\release\PhysXCommon_64.dll ..\..\..\Build64\PhysXCommon_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\release\PhysXCooking_64.dll ..\..\..\Build64\PhysXCooking_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\release\PhysXGpu_64.dll ..\..\..\Build64\PhysXGpu_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\release\PhysXFoundation_64.dll ..\..\..\Build64\PhysXFoundation_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\release\PhysX_64.dll ..\..\..\Build64\PhysX_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\release\PhysXCommon_64.dll ..\..\..\Build64\PhysXCommon_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\release\PhysXCooking_64.dll ..\..\..\Build64\PhysXCooking_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\release\PhysXGpu_64.dll ..\..\..\Build64\PhysXGpu_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\release\PhysXFoundation_64.dll ..\..\..\Build64\PhysXFoundation_64_5_1_0.dll
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -361,7 +361,7 @@ copy ..\..\..\..\PEEL_Externals\5_1_0\Bin\vc12win32\PhysXFoundationPROFILE_x86.d
     </ClCompile>
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>.\Release\PINT_PhysX510_PVD_VS2017_64.dll</OutputFile>
+      <OutputFile>.\Release\PINT_PhysX510_PVD_VS2019_64.dll</OutputFile>
       <DelayLoadDLLs>PhysX_64.dll;PhysXCommon_64.dll;PhysXCooking_64.dll;PhysXFoundation_64.dll;PhysXGpu_64.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -372,13 +372,13 @@ copy ..\..\..\..\PEEL_Externals\5_1_0\Bin\vc12win32\PhysXFoundationPROFILE_x86.d
     </Link>
     <PostBuildEvent>
       <Message>Copying DLL to Build folder...</Message>
-      <Command>copy .\Release\PINT_PhysX510_PVD_VS2017_64.dll ..\..\..\Build64
+      <Command>copy .\Release\PINT_PhysX510_PVD_VS2019_64.dll ..\..\..\Build64
 
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\profile\PhysX_64.dll ..\..\..\Build64\PhysXPROFILE_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\profile\PhysXCommon_64.dll ..\..\..\Build64\PhysXCommonPROFILE_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\profile\PhysXCooking_64.dll ..\..\..\Build64\PhysXCookingPROFILE_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\profile\PhysXGpu_64.dll ..\..\..\Build64\PhysXGpuPROFILE_64_5_1_0.dll
-copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc141.mt\profile\PhysXFoundation_64.dll ..\..\..\Build64\PhysXFoundationPROFILE_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\profile\PhysX_64.dll ..\..\..\Build64\PhysXPROFILE_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\profile\PhysXCommon_64.dll ..\..\..\Build64\PhysXCommonPROFILE_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\profile\PhysXCooking_64.dll ..\..\..\Build64\PhysXCookingPROFILE_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\profile\PhysXGpu_64.dll ..\..\..\Build64\PhysXGpuPROFILE_64_5_1_0.dll
+copy ..\..\..\..\PEEL_Externals\5_1_0\bin\win.x86_64.vc142.mt\profile\PhysXFoundation_64.dll ..\..\..\Build64\PhysXFoundationPROFILE_64_5_1_0.dll
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
