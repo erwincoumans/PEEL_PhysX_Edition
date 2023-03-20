@@ -165,7 +165,7 @@
 			Ref<JPH::Shape>				mShape;
 		};
 
-		vector<CachedShape>				mCachedShapes;
+		std::vector<CachedShape>				mCachedShapes;
 	};
 
 	IceWindow*	Jolt_InitGUI(IceWidget* parent, PintGUIHelper& helper);
